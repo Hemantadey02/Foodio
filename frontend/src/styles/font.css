@@ -1,0 +1,73 @@
+/* src/styles/font.css */
+
+/* Poppins Regular */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/public/fonts/PoppinsRegular.ttf") format("truetype");
+}
+
+/* Poppins Semi-Bold */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/public/fonts/PoppinsSemiBold.ttf") format("truetype");
+}
+
+/* Open Sans Regular */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/public/fonts/OpenSansRomanRegular.ttf") format("truetype");
+}
+
+/* Open Sans Bold */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/public/fonts/OpenSansRomanBold.ttf") format("truetype");
+}
+
+/* Inter Semi-Bold */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/public/fonts/InterSemiBold.ttf") format("truetype");
+}
+
+/* Tinos Bold */
+@font-face {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/public/fonts/TinosBold.ttf") format("truetype");
+}
+
+/* Poppins Light Italic */
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/public/fonts/PoppinsLightItalic.ttf") format("truetype");
+}
+
+/* Poppins Medium */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/public/fonts/PoppinsMedium.ttf") format("truetype");
+}
