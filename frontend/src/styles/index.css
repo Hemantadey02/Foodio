@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.tab-panel--selected {
+    animation-name: tabPanel;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+}
+
+@keyframes tabPanel {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceSmooth {
+    0%,
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-in-out;
+    }
+
+    50% {
+        transform: translateY(-10px);
+        animation-timing-function: ease-in-out;
+    }
+}
+
+.bounce-smooth {
+    animation: bounceSmooth 1.5s infinite;
+}
