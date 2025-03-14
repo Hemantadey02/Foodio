@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -14,39 +14,39 @@ const Home = () => {
             </p>
             <ul style={{ listStyle: "none", padding: "0" }}>
                 <li style={{ marginBottom: "10px" }}>
-                    <Link to="/menu" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/menu" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         Menu
-                    </Link>
+                    </NavLink>
                 </li>
                 <li style={{ marginBottom: "10px" }}>
-                    <Link to="/aboutus" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/aboutus" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         About Us
-                    </Link>
+                    </NavLink>
                 </li>
                 <li style={{ marginBottom: "10px" }}>
-                    <Link to="/reservation" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/reservation" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         Reservation
-                    </Link>
+                    </NavLink>
                 </li>
                 <li style={{ marginBottom: "18px" }}>
-                    <Link to="/contact" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/contact" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         Contact
-                    </Link>
+                    </NavLink>
                 </li>
                 <li style={{ marginBottom: "10px" }}>
-                    <Link to="/orderonline" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/orderonline" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         Orderonline
-                    </Link>
+                    </NavLink>
                 </li>
                 <li style={{ marginBottom: "10px" }}>
-                    <Link to="/checkout" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/checkout" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         Checkout
-                    </Link>
+                    </NavLink>
                 </li>
                 <li style={{ marginBottom: "18px" }}>
-                    <Link to="/homepage" style={{ color: "#87CEFA", textDecoration: "none" }}>
+                    <NavLink to="/" style={{ color: "#87CEFA", textDecoration: "none" }}>
                         Homepage
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </div>

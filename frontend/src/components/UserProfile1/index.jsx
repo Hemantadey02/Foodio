@@ -47,7 +47,7 @@ export default function UserProfile1({
                 </Text>
                 <div className="flex justify-between gap-5 self-stretch">
                     <Heading size="headingmd" as="h4" className="text-green-500">₹{userPrice}</Heading>
-                    <Button onClick={() => navigate('/menu')} size="sm" className="bg-[#e8e6e6] rounded-full text-red-500 transition-all ease-in duration-400 hover:bg-red-500 hover:text-white font-semibold">
+                    <Button color="white" onClick={() => navigate('/menu')} size="sm" className="bg-[#e8e6e6] rounded-full text-red-500 transition-all ease-in duration-400 hover:bg-red-500 hover:text-white font-semibold">
                         <FaArrowRight />
                     </Button>
                 </div>

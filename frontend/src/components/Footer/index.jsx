@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Text, Heading, Button, Img } from "..";
 
 export default function Footer({ ...props }) {
@@ -38,29 +39,29 @@ export default function Footer({ ...props }) {
                                 </Heading>
                                 <ul className="flex flex-col items-start gap-5">
                                     <li>
-                                        <a href="Home" target="_blank" rel="noreferrer">
+                                        <NavLink to="/"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Home</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <a href="Menu" target="_blank" rel="noreferrer">
+                                        <NavLink to="/menu"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Menu</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <a href="OrderOnline" target="_blank" rel="noreferrer">
+                                        <NavLink to="/orderonline"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Order online</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <a href="Catering" target="_blank" rel="noreferrer">
+                                        <NavLink to="/catering"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Catering</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <a href="Reservation" target="_blank" rel="noreferrer">
+                                        <NavLink to="/reservation"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Reservation</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                 </ul>
                             </div>
@@ -68,19 +69,19 @@ export default function Footer({ ...props }) {
                                 <Heading as="h4" className="!text-[#f54748]">Information</Heading>
                                 <ul className="flex flex-col items-start gap-5">
                                     <li>
-                                        <a href="Aboutus" target="_blank" rel="noreferrer">
+                                        <NavLink to="/aboutus"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">About us</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <a href="Testimonial" target="_blank" rel="noreferrer">
+                                        <NavLink to="/testimonial"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Testimonial</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <a href="Event" target="_blank" rel="noreferrer">
+                                        <NavLink to="/event"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">Event</Text>
-                                        </a>
+                                        </NavLink>
                                     </li>
                                 </ul>
                             </div>
@@ -93,12 +94,12 @@ export default function Footer({ ...props }) {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:abc@example.com" target="_blank" rel="noreferrer">
+                                        <a href="mailto:abc@example.com"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">abc@example.com</Text>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="telto:+12345678901"   rel="noreferrer">
                                             <Text as="p" className="!text-[#e3e1df]">+123 4567 8901</Text>
                                         </a>
                                     </li>

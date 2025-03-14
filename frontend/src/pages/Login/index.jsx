@@ -3,6 +3,7 @@ import { FaGoogle } from "react-icons/fa";
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { Input, Button, Text } from '../../components'; // Assuming Input is a reusable component for text input
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -92,9 +93,9 @@ const LoginPage = () => {
         {/* Don't have an account? */}
         <Text className="mt-4 text-center text-gray-600">
           Don't have an account?{" "}
-          <a href="/signup" className="text-center w-auto text-red-600 hover:underline">
+          <NavLink to="/signup" className="text-center w-auto text-red-600 hover:underline">
             Sign up
-          </a>
+          </NavLink>
         </Text>
       </div>
     </div>
